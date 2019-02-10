@@ -1,0 +1,61 @@
+:root {
+  --cursorX: 500px;
+  --cursorY: 500px;
+  --containerIndex: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.top-half {
+  display: flex;
+  flex-flow: row wrap;
+  height: 600px;
+}
+
+.bottom-half {
+  display: flex;
+  flex-flow: row wrap;
+  height: 370px;
+}
+
+.box {
+  flex: 1;
+  transition: all 0.7s;
+}
+
+.box:hover {
+  flex: 2;
+}
+
+.profile-container {
+  background: white;
+}
+
+.skills-container {
+  background: #d58723;
+  flex: 1;
+}
+
+.project-container {
+  background: #5c3a78;
+  flex: 1;
+}
+
+.contacts-container {
+  background: #d8d8d8;
+}
+
+.education-container {
+  background: #af3434;
+}
+
+.employment-container {
+  background: #359b55;
+}
