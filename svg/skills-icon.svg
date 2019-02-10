@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="361px" viewBox="0 0 361 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Skills-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-546.000000, -68.000000)">
+            <g id="Skills-Icon" transform="translate(546.000000, 68.000000)">
+                <circle id="Skills-icon" fill="#FFFFFF" fill-rule="evenodd" cx="180.5" cy="180.5" r="180.5"></circle>
+                <text id="{&lt;-/&gt;}" font-family="Helvetica" font-size="133" font-weight="normal">
+                    <tspan x="21" y="215" fill="#000000">{</tspan>
+                    <tspan x="65.4199219" y="215" fill="#2F94F6">&lt; /&gt;</tspan>
+                    <tspan x="294.663086" y="215" fill="#000000">}</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

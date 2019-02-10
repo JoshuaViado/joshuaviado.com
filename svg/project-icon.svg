@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="361px" viewBox="0 0 361 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Project-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-1022.000000, -68.000000)">
+            <g id="Project-Icon" transform="translate(1022.000000, 68.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="180.5" cy="180.5" r="180.5"></circle>
+                <g id="Folder" transform="translate(72.000000, 116.000000)">
+                    <path d="M26.754248,0.5 C21.8737233,0.5 17.787207,4.19812981 17.3014243,9.05441812 L4.59740035,136.054418 C4.565969,136.368632 4.550224,136.684218 4.550224,137 C4.550224,142.246705 8.80351888,146.5 14.050224,146.5 L206.268415,146.5 C211.020183,146.5 215.041093,142.989108 215.68169,138.280718 L232.960602,11.2807178 C233.018352,10.8562554 233.047326,10.428373 233.047326,10 C233.047326,4.75329488 228.794031,0.5 223.547326,0.5 L26.754248,0.5 Z" id="Rectangle" stroke="#979797" stroke-width="1" fill="#5F96B9"></path>
+                    <rect id="Rectangle" fill="#EFC972" x="0" y="13" width="217" height="134"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
