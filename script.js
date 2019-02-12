@@ -1,3 +1,5 @@
+const profile = document.getElementsByClassName("profile-container");
+
 function setCoords(event) {
   var x = event.clientX;
   var y = event.clientY;
@@ -9,4 +11,8 @@ function setCoords(event) {
 
 function hoverContainer() {
   document.documentElement.style.setProperty("--containerIndex", "-2");
+}
+
+function profileHover() {
+  profile.style.animation = "profile 0.7s";
 }
