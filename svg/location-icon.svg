@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="479px" viewBox="0 0 350 479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Location-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-76.000000, -620.000000)">
+            <g id="Location-Icon" transform="translate(76.000000, 620.000000)">
+                <path d="M175,478.760749 C225.830312,478.760749 246.929866,429.062426 279.468554,363.398414 C309.407115,302.981532 350,220.819519 350,175 C350,78.3501688 271.649831,-1.13686838e-13 175,-1.13686838e-13 C78.3501688,-1.13686838e-13 -5.68434189e-14,78.3501688 -5.68434189e-14,175 C-5.68434189e-14,220.312754 41.9600738,300.915237 72.064936,363.398414 C107.48718,436.917911 123.662923,478.760749 175,478.760749 Z" id="Oval" fill="#D64B4B" fill-rule="evenodd"></path>
+                <circle id="Oval" stroke="#72A8E3" stroke-width="30" cx="175.5" cy="173.5" r="105.5"></circle>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="10" cx="176" cy="174" r="41"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

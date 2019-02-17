@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo"
+      rel="stylesheet"
+    />
 
     <title>Document</title>
   </head>
@@ -12,21 +16,23 @@
     <div class="main-container">
       <div class="top-half">
         <div class="profile-container box">
-          <img src="/svg/profile-icon.svg" alt="" />
+          <img class="icon" src="/svg/profile-icon.svg" alt="" />
           <div class="typing"><h3>Hi, my name is Joshua.</h3></div>
-          <p>
+          <div style="background: red;"></div>
+          <p class="profile-text" style="color: rgb(97, 97, 97)">
             Recent Computer Science graduate looking into getting in the field
             of software development. Gained a proficiency in project management
             including various programming skills throughout academic years.
           </p>
         </div>
         <div class="skills-container box">
-          <img src="/svg/skills-icon.svg" alt="" />
+          <img class="icon" src="/svg/skills-icon.svg" alt="" />
           <p class="languages">
             <span style="color: red;">Java </span>
             <span>HTML </span>
             <span>CSS </span>
             <span>Javascript </span>
+            <span>ES6</span>
             <span style="color: lightblue;"
               >React<span style="color: blue;">Js</span></span
             >
@@ -51,19 +57,70 @@
           </p>
         </div>
         <div class="project-container box">
-          <img src="/svg/project-icon.svg" alt="" />
+          <img class="icon" src="/svg/project-icon.svg" alt="" />
+          <div class="slideshow">
+              <a href="https://github.com/JoshuaViado/exTwitter"><img
+                class="slide-image"
+                src="/gif/exTwitter-gif-preview.gif"
+                alt=""
+              /></a>
+            <a href="https://github.com/JoshuaViado/Type."><img class="slide-image" src="/gif/Type..preview.gif" alt="" /></a>
+            
+          </div>
         </div>
       </div>
       <div class="bottom-half">
         <div class="contacts-container box">
-          <img src="/svg/contacts-icon.svg" alt="" />
+          <img class="icon" src="/svg/contacts-icon.svg" alt="" />
+          <p style="color: #FF5858; font-size: 32px; font-weight: lighter;">Contacts</p>
+          
+          <div class="contacts-content">
+            <img
+              class="content-icon email"
+              src="/svg/email-icon.svg"
+              alt=""
+              onclick="contactsClicked('email')"
+            />
+
+            <img
+              class="content-icon phone"
+              src="/svg/phone-icon.svg"
+              alt=""
+              onclick="contactsClicked('phone')"
+            />
+            
+            <a href="https://www.linkedin.com/in/joshua-viado"
+              ><img class="content-icon" src="/png/linkedin-logo.png" alt=""
+            />
+
+            <a href="https://github.com/JoshuaViado"
+              ><img class="content-icon" src="/png/github-logo.png" alt=""
+            /></a>
+            
+          </div>
+          <p
+            class="contacts-output"
+            style="color: #FF5858; font-weight: bold;"
+          ></p>
+          <p class="contacts-output2" style="color: #8D5959;"></p>
         </div>
         <div class="education-container box">
-          <img src="/svg/education-icon.svg" alt="" />
+          <img class="icon" src="/svg/education-icon.svg" alt="" />
+          <img class="content-icon" src="/png/mdx-logo.png" alt="" />
+          <p style="color: white; font-weight:lighter;">University of Middlesex Sep 2014 – Sep 2017</p>
+          <img class="content-icon" src="/png/egs-logo.png" alt="" />
+          <p style="color: white; font-weight:lighter;">Enfield Grammar School Sep 2007 – Sep 2014</p>
         </div>
         <div class="employment-container box">
-          <img src="/svg/employment-icon.svg" alt="" />
-        </div>
+          
+          <img class="icon" src="/svg/employment-icon.svg" alt="" />
+          <img class="content-icon" src="/png/dominos-logo.png" alt="" />
+          <p style="color: white; font-weight:lighter;">Dominos (Customer Service) Oct 2013 – Feb 2014</p>
+          <img class="content-icon" src="/svg/piano-icon.svg" alt="" />
+          <p style="color: white; font-weight:lighter;">All Talents Music School (Assistant) Oct 2011 (2 Weeks)</p>
+          <img class="content-icon" src="/png/woodcraft-logo.png" alt="" />
+          <p style="color: white; font-weight:lighter;">Woodcraft Folk Youth Club (Supervisor) April 2013 – Feb 2014</p>
+      </div>
       </div>
     </div>
     <script src="script.js"></script>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="257px" viewBox="0 0 252 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Piano-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45,0 L129,0 L129,190 C129,197.731986 122.731986,204 115,204 L59,204 C51.2680135,204 45,197.731986 45,190 L45,0 Z" id="path-1"></path>
+        <filter x="-3.6%" y="-1.0%" width="107.1%" height="103.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M139,0 L223,0 L223,190 C223,197.731986 216.731986,204 209,204 L153,204 C145.268014,204 139,197.731986 139,190 L139,0 Z" id="path-3"></path>
+        <filter x="-3.6%" y="-1.0%" width="107.1%" height="103.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-980.000000, -504.000000)">
+            <g id="Piano-Icon" transform="translate(980.000000, 504.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="83" height="256" rx="14"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="84.5" y="0.5" width="83" height="256" rx="14"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="168.5" y="0.5" width="83" height="256" rx="14"></rect>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
