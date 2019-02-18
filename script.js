@@ -20,6 +20,3 @@ function contactsClicked(name) {
 }
 
 email.addEventListener("onmouseover", contactsClicked);
-
-//hiText.addEventListener("webkitAnimationEnd", textAppear);
-//hiText.addEventListener("animationend", textAppear);
